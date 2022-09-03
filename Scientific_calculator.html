@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <header>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator</title>
+
+    <link rel="stylesheet" href="../bootstrap-4.0.0/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../CSS/Sci_cal.css">
+
+    </header>
+
+    <body>
+        <div class="container">
+            <h1 class="pt-5">Calculator</h1>
+            <form name="calculator" style="margin: auto;">
+                <div class="col-sm-9 col-md-6 col-lg-4 col-xs-12 mx-auto">
+                    <div class="card mx-auto">
+                        <div class="card-body mx-auto">
+                            <input type="text" name="result" placeholder="0" style="text-align : right; width : 100%", readonly="">
+                            <div class="row mt-2">
+                                <din class="col-md-2 mx-auto">
+                                    <button type="button" class="btn btn-block trig" value="sin" onclick="sin()">sin</button>  
+                                    <button type="button" class="btn btn-block emp" value="x^2" onclick="square()">x<sup>2</sup></button>  
+                                    <button type="button" class="btn btn-block num" value="1" onclick="number(value)">1</button>  
+                                    <button type="button" class="btn btn-block num" value="4" onclick="number(value)">4</button>  
+                                    <button type="button" class="btn btn-block num" value="7" onclick="number(value)">7</button>  
+                                    <button type="button" class="btn btn-block num" value="." onclick="number(value)">.</button>  
+                                    <button type="button"class="btn btn-block back" value="back" onclick="back()">⌫</button>
+                                </din>
+                                <div class="col-md-2 mx-auto">
+                                    <button type="button" class="btn btn-block trig" value="cos" onclick="cos()">cos</button>  
+                                    <button type="button" class="btn btn-block emp" value="x^3" onclick="cube()">x<sup>3</sup></button>  
+                                    <button type="button" class="btn btn-block num" value="2" onclick="number(value)">2</button>  
+                                    <button type="button" class="btn btn-block num" value="5" onclick="number(value)">5</button>  
+                                    <button type="button" class="btn btn-block num" value="8" onclick="number(value)">8</button>  
+                                    <button type="button" class="btn btn-block num" value="0" onclick="number(value)">0</button>  
+                                    <button type="button"class="btn btn-block paranthesis" value="(" onclick="number(value)">(</button>
+                                </div>
+                                <div class="col-md-2 mx-auto">
+                                    <button type="button" class="btn btn-block trig" value="tan" onclick="tan()">tan</button>  
+                                    <button type="button" class="btn btn-block emp" value="sqrt2" onclick="sqrt2()">&radic;</button>  
+                                    <button type="button" class="btn btn-block num" value="3" onclick="number(value)">3</button>  
+                                    <button type="button" class="btn btn-block num" value="6" onclick="number(value)">6</button>  
+                                    <button type="button" class="btn btn-block num" value="9" onclick="number(value)">9</button>  
+                                    <button type="button" class="btn btn-block emp" value="*" onclick="number(value)">*</button>  
+                                    <button type="button"class="btn btn-block paranthesis" value=")" onclick="number(value)">)</button>
+                                </div>
+                                <div class="col-md-2 mx-auto">
+                                    <button type="button" class="btn btn-block clear" value="clear" onclick="clr()">C</button>  
+                                    <button type="button" class="btn btn-block emp" value="sqrt3" onclick="sqrt3()">&#8731;</button>  
+                                    <button type="button" class="btn btn-block emp" value="+" onclick="number(value)">+</button>  
+                                    <button type="button" class="btn btn-block emp" value="-" onclick="number(value)">-</button>  
+                                    <button type="button" class="btn btn-block emp" value="%" onclick="number(value)">%</button>  
+                                    <button type="button" class="btn btn-block emp" value="/" onclick="number(value)">/</button>  
+                                    <button type="button"class="btn btn-block equal" value="=" onclick="equal()">=</button>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>  
+                </div>
+            </form>
+        </div>
+        <footer class="fixed-bottom">
+            <p>Hello Love ❤️ <a style="color: black;" href="https://github.com/YashSinghal215?tab=repositories">Yash Singhal</a></p>
+        </footer>           
+    </body>
+    
+    <script src="../bootstrap-4.0.0/dist/js/bootstrap.js"></script>
+    <script src="../bootstrap-4.0.0/dist/js/bootstrap.min.js"></script>
+    <script src="../Java Script/Sci_cal_js.js"></script>
+   
+</html>
